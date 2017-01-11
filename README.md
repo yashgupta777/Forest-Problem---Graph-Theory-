@@ -10,26 +10,6 @@ struct node {
 
 Find the maximum number of edges you can remove from the tree to get a forest such that each connected component of the forest contains an even number of vertices.
 
-Special Case: Ignore all nodes with data value 0 while counting.
-Example :
-If a tree has the following vertices :
-        
-
-Then number of vertices in this forest is 2 and not 3
-
-
-
-
-
-
-Sample Input:
-    
-Decomposed tree:
-
-
-
-Explanation
-On removing edges (1,3)  and (1,6), we get 2 as output (2 edges need to be removed to get the decomposed tree).
 You are required to implement a function (assuming C here) with the following signature: 
 int countEven(node * root) 
 where root is constructed from step A. 
